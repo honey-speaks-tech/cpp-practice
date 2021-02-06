@@ -4,7 +4,7 @@
 
 int main()
 {
-    Person p1;
+    Person p1("Honey", "Sukesan", 34);
     Person p2;
 
     p1.getName();
