@@ -10,7 +10,8 @@ class Person
     int age;
 
     public:
-    Person() = default;
+    Person();
+    ~Person();
     Person(std::string, std::string, int);
     std::string getName();
 };
