@@ -22,7 +22,7 @@ Person::~Person()
 {
     std::cout<<"Destructing first name: " << first_name << " Last name: " << last_name << " age: " << age << std::endl;
 }
-std::string Person::getName()
+std::string Person::getName() const
 {
     std::cout<<"First name: " << first_name << " Last name: " << last_name << std::endl;
     return first_name + " " + last_name;
